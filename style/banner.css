@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+*{
+box-sizing: border-box;
+margin: 0 auto;
+padding: 0;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+#banner-list ul li::before{
+    content: '';
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    width: 12px;
+    height: 12px;
+    background: 0 0;
+    border: solid 2px #f36606;
+    border-radius: 50%;
+    margin-right: 10px;
+}
